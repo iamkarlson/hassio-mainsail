@@ -16,8 +16,7 @@ RUN \
         unzip
 
 
-COPY ./mainsail.nginx /etc/nginx/sites-enabled/mainsail
-
+COPY rootfs /
 
 WORKDIR /code/mainsail
 RUN wget -q -O mainsail.zip https://github.com/mainsail-crew/mainsail/releases/latest/download/mainsail.zip 

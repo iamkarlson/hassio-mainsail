@@ -1,6 +1,6 @@
 name: "Mainsail HASSIO"
 description: "Frontend for Mainsail"
-version: "1.0.2"
+version: "1.0.3"
 slug: "mainsail"
 init: false
 arch:

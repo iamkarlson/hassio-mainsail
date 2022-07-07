@@ -39,4 +39,8 @@ server {
     location /nginx_status {
         stub_status;
     }
+
+    location /websocket {
+        proxy_pass http://192.168.100.50/websocket;
+    }
 }

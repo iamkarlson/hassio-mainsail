@@ -52,7 +52,7 @@ server {
         proxy_read_timeout 86400;
     }
 
-    location ~ ^/(printer|api|access|machine|server)/ {
+    location ~ ^/(printer|api|access|machine|server|webcam)/ {
         proxy_pass http://apiserver$request_uri;
         proxy_set_header Host $http_host;
         proxy_set_header X-Real-IP $remote_addr;

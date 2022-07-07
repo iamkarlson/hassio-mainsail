@@ -65,3 +65,8 @@ upstream apiserver {
     ip_hash;
     server 192.168.100.50:80;
 }
+
+map $http_upgrade $connection_upgrade {
+    default upgrade;
+    '' close;
+}

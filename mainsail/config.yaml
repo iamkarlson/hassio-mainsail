@@ -9,6 +9,7 @@ arch:
   - armhf
   - armv7
   - i386
+webui: [PROTO:option_name]://[HOST]:[PORT:8080]/
 ingress: true
 ingress_port: 8080
 ports:

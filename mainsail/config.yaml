@@ -1,6 +1,6 @@
 name: "Mainsail HASSIO"
 description: "Frontend for Mainsail"
-version: "1.0.6"
+version: "1.0.7"
 slug: "mainsail"
 init: false
 arch:
@@ -9,7 +9,7 @@ arch:
   - armhf
   - armv7
   - i386
-webui: [PROTO:option_name]://[HOST]:[PORT:8080]/
+webui: "[PROTO:option_name]://[HOST]:[PORT:8080]/"
 ingress: true
 ingress_port: 8080
 ports:
